@@ -5,7 +5,7 @@ import json
 from Support import change_market_shares,coeffs_change,change_in_consumption,commodity_demand,eemix,meals_demand,sat_coeffs_change,null_demand,all_coeffs_change
 
 sN = slice(None)
-user = 'WS' # <--- change this to your own user name (see Paths.json)
+user = 'NG' # <--- change this to your own user name (see Paths.json)
 with open('Paths.json', 'r') as file:
     paths = json.load(file)[user]
 
@@ -206,6 +206,7 @@ measure = [
 background = [
     'REF',
     'NZE',
+    'BAU'
     ] # Reference: REF - Net Zero Emissions: NZE
 years = [
     '2011',

@@ -102,7 +102,9 @@ ex_mat = [
 
 # Updating inputs
 background = [
-    'REF'
+    'REF',
+    'NZE',
+    'BAU'
     ] # Reference: REF - Net Zero Emissions: NZE
 measure = [
     0,

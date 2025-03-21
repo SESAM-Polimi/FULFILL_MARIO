@@ -1,15 +1,15 @@
 {
   "NG": {
     "Exiobase": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\DATASETS\\Exiobase Hybrid 3.3.18 with VA",
-    "Full Scale FULFILL": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\DATASETS\\FULFILL\\Full Scale",
+    "Full Scale FULFILL": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documents\\c-Research\\a-Datasets\\FULFILL\\Full Scale",
     "Aggregated database": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\DATASETS\\FULFILL\\Aggregated",
-    "Add sectors": "C:\\Users\\nicog\\Desktop\\Nicolò\\GitHub\\FULFILL\\Add sectors",
-    "Conceptual FULFILL": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\DATASETS\\FULFILL\\Conceptual",
-    "Support data": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\\\PROJECTS\\2023_H2020_FULFILL\\Model\\Files for shocks",
+    "Add sectors": "Add sectors",
+    "Conceptual FULFILL": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documents\\c-Research\\a-Datasets\\FULFILL\\Conceptual",
+    "Support data": "Files for shocks",
     "test_aggr_db": "C:\\Users\\nicog\\Desktop\\Nicolò\\GitHub\\FULFILL\\Output\\Database\\test_aggr",
-    "Shocks": "C:\\Users\\nicog\\Desktop\\Nicolò\\GitHub\\FULFILL\\Shocks",
-    "Sets": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\PROJECTS\\2023_H2020_FULFILL\\Results_dataset\\sets.xlsx",
-    "Results": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documenti\\PROJECTS\\2023_H2020_FULFILL\\Results_dataset\\Results"
+    "Shocks": "Shocks",
+    "Sets": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documents\\c-Research\\c-Publications on-going\\2025_Golinucci_FULFILL\\Outputs\\sets.xlsx",
+    "Results": "C:\\Users\\nicog\\Politecnico di Milano\\DENG-SESAM - Documents\\c-Research\\c-Publications on-going\\2025_Golinucci_FULFILL\\Outputs\\Results"
 
 
 
@@ -39,13 +39,13 @@
   "WS": {
     "Exiobase": "D:\\Users\\FULFILL\\Databases\\Exiobase Hybrid 3.3.18 with VA",
     "Conceptual FULFILL": "D:\\Users\\FULFILL\\Databases\\Conceptual",
-    "Full Scale FULFILL": "D:\\Users\\FULFILL\\Databases\\Full Scale",
+    "Full Scale FULFILL": "D:\\Users\\FULFILL_rev\\Database\\Full Scale",
     "Aggregated database": "C:\\Users\\loren\\Polimi\\Politecnico di Milano\\DENG-SESAM - Documenti\\DATASETS\\FULFILL\\Aggregated",
     "Add sectors": "D:\\Users\\FULFILL\\Github Code\\Add sectors",
     "Shocks": "D:\\Users\\FULFILL\\Github Code\\Shocks",
     "test_aggr_db": "D:\\Users\\FULFILL\\Github Code\\test_aggr",
     "Support data": "D:\\Users\\FULFILL\\Files for shocks",
-    "Sets": "D:\\Users\\FULFILL\\Outputs\\sets.xlsx",
+    "Sets": "D:\\Users\\FULFILL_rev\\Outputs",
     "Results": "D:\\Users\\FULFILL\\Outputs\\Results"
 
 
