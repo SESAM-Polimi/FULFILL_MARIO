@@ -194,18 +194,18 @@ def get_shock_file(
 #%%
 measure = [
     'All',
-    'F',
-    'D',
+    # 'F',
+    # 'D',
     'S',
     'M',
-    'P',
-    'F',
-    'B',
-    0,
+    # 'P',
+    # 'F',
+    # 'B',
+    # 0,
     ] 
 background = [
-    'REF',
-    'NZE',
+    # 'REF',
+    # 'NZE',
     'BAU'
     ] # Reference: REF - Net Zero Emissions: NZE
 years = [
