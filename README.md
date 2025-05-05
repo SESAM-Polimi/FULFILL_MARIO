@@ -21,11 +21,11 @@ All data and results are also available on Zenodo:
 
 ```
 .
-├── 1. Database building.ipynb     # Builds and prepares Exiobase database
-├── 2. Shock building.ipynb        # Constructs scenario-specific shock files
+├── 1. Database building.ipynb     # Builds and prepares Exiobase database with new technologies required
+├── 2. Shock building.ipynb        # Constructs scenario-specific shock files 
 ├── 3. Model run.ipynb             # Runs all scenarios and exports results
-├── Data/                          # Contains input databases and raw files
-├── Shocks/                        # Templates, mappings, and shock files
+├── Data/                          # Contains input databases and raw files (it's created while running the notebooks)
+├── Shocks/                        # Templates, mappings, and filled shock files
 └── Outputs/                       # Results and aggregated outputs
 ```
 
