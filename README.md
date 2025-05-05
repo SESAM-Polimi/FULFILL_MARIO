@@ -40,6 +40,7 @@ Install all dependencies using the provided Conda environment file:
 ```bash
 conda env create -f _environment.yml
 conda activate fulfill_env
+
 ```
 
 ### 2. Data Download
@@ -48,10 +49,8 @@ All required data can be downloaded automatically by running the notebooks in se
 
 Alternatively, you can manually download the full dataset from [Zenodo](https://zenodo.org/records/15261005) and extract the contents into the appropriate folders (`Data/`, `Shocks/`, etc.) as described in each notebook.
 
----
 
 ## Workflow 
-
 ### Step 1: Database Preparation
 
 Run `1. Database building.ipynb` to:
@@ -61,6 +60,7 @@ Run `1. Database building.ipynb` to:
 - Add new supply chains and additional emissions where needed.  
 - Save the processed database for scenario analysis.
 
+
 ### Step 2: Build Shock Files
 
 Run `2. Shock building.ipynb` to:
@@ -68,6 +68,7 @@ Run `2. Shock building.ipynb` to:
 - Download and extract all supporting files for shock construction.  
 - Build scenario-specific shock files for all combinations of background, measure, and year.  
 - Save the resulting files in `Shocks/filled_files/`.
+
 
 ### Step 3: Run Model Scenarios
 
@@ -78,20 +79,19 @@ Run `3. Model run.ipynb` to:
 - Loop through each scenario, run shock calculations, and export results.  
 - Aggregate and merge outputs for analysis.
 
----
 
-## Outputs
+### Outputs
 
 All scenario results are saved in:
 
 - `Outputs/Results/`: Scenario outputs, organized by matrix and scenario.  
 - `Outputs/Results/Merged/`: Merged results for each matrix, ready for analysis.
 
+
 ---
 
-## Citation
+### Citation
 
 If you use this repository, code, or data, please cite:
 
-Golinucci, N., et al. (2025). *The Role of Sufficiency Measures in a Decarbonizing Europe*.  
-*Ecological Economics*, 108645. [https://doi.org/10.1016/j.ecolecon.2025.108645](https://doi.org/10.1016/j.ecolecon.2025.108645)
+Golinucci, N., Rocco, M. V., Prina, M. G., Beltrami, F., Rinaldi, L., Schau, E. M., & Sparber, W. (2025). The role of sufficiency measures in a decarbonizing Europe. *Ecological Economics, 235*, 108645. [https://doi.org/10.1016/j.ecolecon.2025.108645](https://doi.org/10.1016/j.ecolecon.2025.108645)
