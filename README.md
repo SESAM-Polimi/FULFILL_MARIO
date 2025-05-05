@@ -26,7 +26,7 @@ All data and results are also available on Zenodo:
 ├── 3. Model run.ipynb             # Runs all scenarios and exports results
 ├── Data/                          # Contains input databases and raw files (it's created while running the notebooks)
 ├── Shocks/                        # Templates, mappings, and filled shock files
-└── Outputs/                       # Results and aggregated outputs
+└── Outputs/                       # Results and aggregated outputs (it's filled while running the notebooks)
 ```
 
 ---
