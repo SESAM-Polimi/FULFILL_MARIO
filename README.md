@@ -57,7 +57,7 @@ Run `1. Database building.ipynb` to:
 
 - Download and extract the Exiobase v3.3.18 database in MARIO format.  
 - Parse and aggregate the database using MARIO.  
-- Add new supply chains and additional emissions where needed.  
+- Add new supply chains and performs other minor manipulations to the database where needed.  
 - Save the processed database for scenario analysis.
 
 
@@ -75,7 +75,6 @@ Run `2. Shock building.ipynb` to:
 Run `3. Model run.ipynb` to:
 
 - Parse the prepared MARIO-formatted database.  
-- Define all involved commodities, regions, and clusters.  
 - Loop through each scenario, run shock calculations, and export results.  
 - Aggregate and merge outputs for analysis.
 
