@@ -13,7 +13,7 @@ This repository accompanies the paper:
 This repository provides all code, data, and instructions required to reproduce the scenarios and results presented in the paper. The analysis is based on the [MARIO](https://github.com/it-is-me-mario/MARIO) software package, which is used for environmentally extended input-output modeling.
 
 All data and results are also available on Zenodo:  
-🔗 **[Zenodo Repository](https://zenodo.org/records/15261005)**
+🔗 **[Zenodo Repository](https://doi.org/10.5281/zenodo.15070606)**
 
 ---
 
@@ -47,7 +47,7 @@ conda activate fulfill_env
 
 All required data can be downloaded automatically by running the notebooks in sequence.
 
-Alternatively, you can manually download the full dataset from [Zenodo](https://zenodo.org/records/15261005) and extract the contents into the appropriate folders (`Data/`, `Shocks/`, etc.) as described in each notebook.
+Alternatively, you can manually download the full dataset from [Zenodo](https://doi.org/10.5281/zenodo.15070606) and extract the contents into the appropriate folders (`Data/`, `Shocks/`, etc.) as described in each notebook.
 
 
 ## Workflow 
