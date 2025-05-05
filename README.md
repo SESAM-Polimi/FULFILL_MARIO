@@ -59,6 +59,7 @@ Run `1. Database building.ipynb` to:
 - Parse and aggregate the database using MARIO.  
 - Add new supply chains and performs other minor manipulations to the database where needed.  
 - Save the processed database for scenario analysis.
+- This step runs in 5-10 minutes on a MacBook Pro M3 Pro 18 GB RAM
 
 
 ### Step 2: Build Shock Files
@@ -68,7 +69,7 @@ Run `2. Shock building.ipynb` to:
 - Download and extract all supporting files for shock construction.  
 - Build scenario-specific shock files for all combinations of background, measure, and year.  
 - Save the resulting files in `Shocks/filled_files/`.
-
+- This step runs in around 10 minutes on a MacBook Pro M3 Pro 18 GB RAM
 
 ### Step 3: Run Model Scenarios
 
@@ -77,7 +78,7 @@ Run `3. Model run.ipynb` to:
 - Parse the prepared MARIO-formatted database.  
 - Loop through each scenario, run shock calculations, and export results.  
 - Aggregate and merge outputs for analysis.
-
+- This step runs in approximately 8 hours on a MacBook Pro M3 Pro 18 GB RAM. 
 
 ### Outputs
 
