@@ -96,6 +96,5 @@ If you use this repository, code, or data, please cite:
 Golinucci, N., Rocco, M. V., Prina, M. G., Beltrami, F., Rinaldi, L., Schau, E. M., & Sparber, W. (2025). The role of sufficiency measures in a decarbonizing Europe. *Ecological Economics, 235*, 108645. [https://doi.org/10.1016/j.ecolecon.2025.108645](https://doi.org/10.1016/j.ecolecon.2025.108645)
 
 ```bash
-# Copy this citation
-echo "Golinucci, N., Rocco, M. V., Prina, M. G., Beltrami, F., Rinaldi, L., Schau, E. M., & Sparber, W. (2025). The role of sufficiency measures in a decarbonizing Europe. Ecological Economics, 235, 108645. https://doi.org/10.1016/j.ecolecon.2025.108645" | pbcopy
+"Golinucci, N., Rocco, M. V., Prina, M. G., Beltrami, F., Rinaldi, L., Schau, E. M., & Sparber, W. (2025). The role of sufficiency measures in a decarbonizing Europe. Ecological Economics, 235, 108645. https://doi.org/10.1016/j.ecolecon.2025.108645" | pbcopy
 ```
