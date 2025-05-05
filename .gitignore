@@ -9,6 +9,9 @@ __pycache__/
 # Ignore Results
 Results/
 
+# Ignore Data 
+Data/
+
 # Distribution / packaging
 .Python
 build/
