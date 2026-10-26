@@ -1,0 +1,46 @@
+{
+  "source": "Already-public version-controlled BAU background shock workbooks",
+  "git_commit": "cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef",
+  "files": {
+    "2011": {
+      "filename": "BAU_0_2011.xlsx",
+      "sha256": "dd88ffce52a415072418874541882304b27a34365d75b8dc9cf0802b07cd9e1a",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2011.xlsx"
+    },
+    "2020": {
+      "filename": "BAU_0_2020.xlsx",
+      "sha256": "751aebcf6dde378eababff77654bb8a662e2d9e3596e613c7afc862d7ba67750",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2020.xlsx"
+    },
+    "2025": {
+      "filename": "BAU_0_2025.xlsx",
+      "sha256": "9cbedde213494d14875af62be399f38c5a20aee8cf5f801f2ac04774d0f568e9",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2025.xlsx"
+    },
+    "2030": {
+      "filename": "BAU_0_2030.xlsx",
+      "sha256": "762d505b6048e9faed69ce94a03d5846cf427a4d0fe564ecaa1e4fe0c0d6de84",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2030.xlsx"
+    },
+    "2035": {
+      "filename": "BAU_0_2035.xlsx",
+      "sha256": "456626745e5be3730f53c783779cc3d49793d3a805fd32c2685c21bf545a5a4f",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2035.xlsx"
+    },
+    "2040": {
+      "filename": "BAU_0_2040.xlsx",
+      "sha256": "99323cc5b1bb8838ba4e5bfb4fc80245e8f11ae58c7658533f25c226c79aede2",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2040.xlsx"
+    },
+    "2045": {
+      "filename": "BAU_0_2045.xlsx",
+      "sha256": "fac3c1fa37ab0b27914e886faa4d5392e6c91b413cb46e4483ee276081cb982a",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2045.xlsx"
+    },
+    "2050": {
+      "filename": "BAU_0_2050.xlsx",
+      "sha256": "4524dbcaaba758109800d8c1801680d4481e485c209a8b9c83e58d6b97d1884e",
+      "url": "https://github.com/SESAM-Polimi/FULFILL_MARIO/blob/cf8a79bc99d61713ae8ff9b4e864cd3e51cde9ef/Shocks/filled_files/BAU_0_2050.xlsx"
+    }
+  }
+}

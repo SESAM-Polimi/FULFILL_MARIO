@@ -1,0 +1,13 @@
+{
+  "name": "diet-and-aviation-2050",
+  "background": "NZE",
+  "year": 2050,
+  "measures": [
+    "D",
+    "F"
+  ],
+  "adoption": {
+    "D": 1.0,
+    "F": 0.5
+  }
+}

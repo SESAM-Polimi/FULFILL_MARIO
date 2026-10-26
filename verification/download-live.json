@@ -1,0 +1,13 @@
+{
+  "record": 15341618,
+  "archive_md5": "1b0f789f5a39d836e97167fb7a0b96b3",
+  "requests": [
+    {
+      "requested_range": "bytes=131072-",
+      "status": 206,
+      "content_range": "bytes 131072-1747255/1747256"
+    }
+  ],
+  "extracted_files_verified": 16,
+  "offline_reuse_verified": true
+}

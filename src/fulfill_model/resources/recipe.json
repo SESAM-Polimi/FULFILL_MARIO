@@ -1,0 +1,788 @@
+{
+  "schema_version": 1,
+  "source": "Shocks/ShockMap.xlsx",
+  "source_sha256": "5b842bc2da279f4b80a6d39c34fb9fe43058f1766e4822ef44c1a02f55355e09",
+  "steps": [
+    {
+      "id": "cons_var",
+      "order": 1,
+      "archetype": "scale_final_demand",
+      "legacy_function": "change_in_consumption",
+      "matrix": "Y",
+      "workbook": "cons_var_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "cons_category": [
+          "Households final consumption",
+          "Other final consumption"
+        ],
+        "commodity": "all"
+      },
+      "sheets": {
+        "REF": {
+          "0": "Change in consumption",
+          "All": "Change in consumption",
+          "D": "Change in consumption",
+          "S": "Change in consumption",
+          "M": "Change in consumption",
+          "B": "Change in consumption",
+          "F": "Change in consumption",
+          "P": "Change in consumption"
+        },
+        "NZE": {
+          "0": "Change in consumption",
+          "All": "Change in consumption",
+          "D": "Change in consumption",
+          "S": "Change in consumption",
+          "M": "Change in consumption",
+          "B": "Change in consumption",
+          "F": "Change in consumption",
+          "P": "Change in consumption"
+        },
+        "BAU": {
+          "0": "Change in consumption",
+          "All": "Change in consumption",
+          "D": "Change in consumption",
+          "S": "Change in consumption",
+          "M": "Change in consumption",
+          "B": "Change in consumption",
+          "F": "Change in consumption",
+          "P": "Change in consumption"
+        }
+      }
+    },
+    {
+      "id": "car-eff",
+      "order": 2,
+      "archetype": "technical_requirement",
+      "legacy_function": "coeffs_change",
+      "matrix": "z",
+      "workbook": "car-eff_Full.xlsx",
+      "measure": "M",
+      "parameters": {
+        "acts_coms": {
+          "Diesel and gasoline car": "Liquid fuels",
+          "LPG car": "Liquefied Petroleum Gases (LPG)",
+          "Methane car": "Natural gas and services related to natural gas extraction; excluding surveying",
+          "Hydrogen car": "Chemicals nec",
+          "Full electric car": "Electricity"
+        }
+      },
+      "sheets": {
+        "REF": {
+          "0": "car-eff 0 - clustering",
+          "All": "car-eff M - clustering",
+          "D": "car-eff 0 - clustering",
+          "S": "car-eff 0 - clustering",
+          "M": "car-eff M - clustering",
+          "B": "car-eff 0 - clustering",
+          "F": "car-eff 0 - clustering",
+          "P": "car-eff 0 - clustering"
+        },
+        "NZE": {
+          "0": "car-eff 0 - clustering",
+          "All": "car-eff M - clustering",
+          "D": "car-eff 0 - clustering",
+          "S": "car-eff 0 - clustering",
+          "M": "car-eff M - clustering",
+          "B": "car-eff 0 - clustering",
+          "F": "car-eff 0 - clustering",
+          "P": "car-eff 0 - clustering"
+        },
+        "BAU": {
+          "0": "car-eff 0 - clustering",
+          "All": "car-eff M - clustering",
+          "D": "car-eff 0 - clustering",
+          "S": "car-eff 0 - clustering",
+          "M": "car-eff M - clustering",
+          "B": "car-eff 0 - clustering",
+          "F": "car-eff 0 - clustering",
+          "P": "car-eff 0 - clustering"
+        }
+      }
+    },
+    {
+      "id": "hs-eff",
+      "order": 3,
+      "archetype": "technical_requirement",
+      "legacy_function": "coeffs_change",
+      "matrix": "z",
+      "workbook": "hs-eff_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "acts_coms": {
+          "Other fossil heating system": "Coal and peat",
+          "Solid biomass heating system": "Products of forestry; logging and related services (02)",
+          "Heavy fuel oil heating system": "Heavy Fuel Oil",
+          "Methane heating system": "Natural gas and services related to natural gas extraction; excluding surveying",
+          "Electric heating system": "Electricity",
+          "District heating network": "Steam and hot water supply services",
+          "Heat pump system": "Electricity"
+        }
+      },
+      "sheets": {
+        "REF": {
+          "0": "hs-eff",
+          "All": "hs-eff",
+          "D": "hs-eff",
+          "S": "hs-eff",
+          "M": "hs-eff",
+          "B": "hs-eff",
+          "F": "hs-eff",
+          "P": "hs-eff"
+        },
+        "NZE": {
+          "0": "hs-eff",
+          "All": "hs-eff",
+          "D": "hs-eff",
+          "S": "hs-eff",
+          "M": "hs-eff",
+          "B": "hs-eff",
+          "F": "hs-eff",
+          "P": "hs-eff"
+        },
+        "BAU": {
+          "0": "hs-eff BAU",
+          "All": "hs-eff BAU",
+          "D": "hs-eff BAU",
+          "S": "hs-eff BAU",
+          "M": "hs-eff BAU",
+          "B": "hs-eff BAU",
+          "F": "hs-eff BAU",
+          "P": "hs-eff BAU"
+        }
+      }
+    },
+    {
+      "id": "car-mix",
+      "order": 4,
+      "archetype": "supply_mix",
+      "legacy_function": "change_market_shares",
+      "matrix": "z",
+      "workbook": "car-mix_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "commodity": "Car mobility"
+      },
+      "sheets": {
+        "REF": {
+          "0": "car_mix REF",
+          "All": "car_mix REF",
+          "D": "car_mix REF",
+          "S": "car_mix REF",
+          "M": "car_mix REF",
+          "B": "car_mix REF",
+          "F": "car_mix REF",
+          "P": "car_mix REF"
+        },
+        "NZE": {
+          "0": "car_mix NZE",
+          "All": "car_mix NZE",
+          "D": "car_mix NZE",
+          "S": "car_mix NZE",
+          "M": "car_mix NZE",
+          "B": "car_mix NZE",
+          "F": "car_mix NZE",
+          "P": "car_mix NZE"
+        },
+        "BAU": {
+          "0": "car_mix BAU",
+          "All": "car_mix BAU",
+          "D": "car_mix BAU",
+          "S": "car_mix BAU",
+          "M": "car_mix BAU",
+          "B": "car_mix BAU",
+          "F": "car_mix BAU",
+          "P": "car_mix BAU"
+        }
+      }
+    },
+    {
+      "id": "hous",
+      "order": 5,
+      "archetype": "technical_requirement",
+      "legacy_function": "coeffs_change",
+      "matrix": "z",
+      "workbook": "hous_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "acts_coms": {
+          "Electricity need": "Electricity",
+          "Heating need": "Heating services"
+        },
+        "target_act": "Housing",
+        "com_only_domestic": [
+          "Heating services"
+        ]
+      },
+      "sheets": {
+        "REF": {
+          "0": "hous",
+          "All": "hous",
+          "D": "hous",
+          "S": "hous",
+          "M": "hous",
+          "B": "hous",
+          "F": "hous",
+          "P": "hous"
+        },
+        "NZE": {
+          "0": "hous",
+          "All": "hous",
+          "D": "hous",
+          "S": "hous",
+          "M": "hous",
+          "B": "hous",
+          "F": "hous",
+          "P": "hous"
+        },
+        "BAU": {
+          "0": "hous BAU",
+          "All": "hous BAU",
+          "D": "hous BAU",
+          "S": "hous BAU",
+          "M": "hous BAU",
+          "B": "hous BAU",
+          "F": "hous BAU",
+          "P": "hous BAU"
+        }
+      }
+    },
+    {
+      "id": "hs-mix",
+      "order": 6,
+      "archetype": "supply_mix",
+      "legacy_function": "change_market_shares",
+      "matrix": "z",
+      "workbook": "hs-mix_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "commodity": "Heating services"
+      },
+      "sheets": {
+        "REF": {
+          "0": "hs-mix REF - clustering",
+          "All": "hs-mix REF - clustering",
+          "D": "hs-mix REF - clustering",
+          "S": "hs-mix REF - clustering",
+          "M": "hs-mix REF - clustering",
+          "B": "hs-mix REF - clustering",
+          "F": "hs-mix REF - clustering",
+          "P": "hs-mix REF - clustering"
+        },
+        "NZE": {
+          "0": "hs-mix NZE - clustering",
+          "All": "hs-mix NZE - clustering",
+          "D": "hs-mix NZE - clustering",
+          "S": "hs-mix NZE - clustering",
+          "M": "hs-mix NZE - clustering",
+          "B": "hs-mix NZE - clustering",
+          "F": "hs-mix NZE - clustering",
+          "P": "hs-mix NZE - clustering"
+        },
+        "BAU": {
+          "0": "hs-mix BAU - clustering",
+          "All": "hs-mix BAU - clustering",
+          "D": "hs-mix BAU - clustering",
+          "S": "hs-mix BAU - clustering",
+          "M": "hs-mix BAU - clustering",
+          "B": "hs-mix BAU - clustering",
+          "F": "hs-mix BAU - clustering",
+          "P": "hs-mix BAU - clustering"
+        }
+      }
+    },
+    {
+      "id": "ele-mix",
+      "order": 7,
+      "archetype": "electricity_mix",
+      "legacy_function": "eemix",
+      "matrix": "z",
+      "workbook": "ele-mix_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "commodity": "Electricity"
+      },
+      "sheets": {
+        "REF": {
+          "0": "year",
+          "All": "year",
+          "D": "year",
+          "S": "year",
+          "M": "year",
+          "B": "year",
+          "F": "year",
+          "P": "year"
+        },
+        "NZE": {
+          "0": "year",
+          "All": "year",
+          "D": "year",
+          "S": "year",
+          "M": "year",
+          "B": "year",
+          "F": "year",
+          "P": "year"
+        },
+        "BAU": {
+          "0": "year",
+          "All": "year",
+          "D": "year",
+          "S": "year",
+          "M": "year",
+          "B": "year",
+          "F": "year",
+          "P": "year"
+        }
+      }
+    },
+    {
+      "id": "m2pc",
+      "order": 8,
+      "archetype": "per_capita_demand",
+      "legacy_function": "commodity_demand",
+      "matrix": "Y",
+      "workbook": "m2pc_Full.xlsx",
+      "measure": "S",
+      "parameters": {
+        "commodity": "Housing services",
+        "cons_category": "Households final consumption",
+        "shock_type": "Update"
+      },
+      "sheets": {
+        "REF": {
+          "0": "m2pc 0",
+          "All": "m2pc S",
+          "D": "m2pc 0",
+          "S": "m2pc S",
+          "M": "m2pc 0",
+          "B": "m2pc 0",
+          "F": "m2pc 0",
+          "P": "m2pc 0"
+        },
+        "NZE": {
+          "0": "m2pc 0",
+          "All": "m2pc S",
+          "D": "m2pc 0",
+          "S": "m2pc S",
+          "M": "m2pc 0",
+          "B": "m2pc 0",
+          "F": "m2pc 0",
+          "P": "m2pc 0"
+        },
+        "BAU": {
+          "0": "m2pc 0",
+          "All": "m2pc S",
+          "D": "m2pc 0",
+          "S": "m2pc S",
+          "M": "m2pc 0",
+          "B": "m2pc 0",
+          "F": "m2pc 0",
+          "P": "m2pc 0"
+        }
+      }
+    },
+    {
+      "id": "meals_dem",
+      "order": 9,
+      "archetype": "total_service_demand",
+      "legacy_function": "meals_demand",
+      "matrix": "Y",
+      "workbook": "cons_var_Full.xlsx",
+      "measure": null,
+      "parameters": {
+        "commodity": "Meals",
+        "cons_category": "Households final consumption"
+      },
+      "sheets": {
+        "REF": {
+          "0": "Number of meals",
+          "All": "Number of meals",
+          "D": "Number of meals",
+          "S": "Number of meals",
+          "M": "Number of meals",
+          "B": "Number of meals",
+          "F": "Number of meals",
+          "P": "Number of meals"
+        },
+        "NZE": {
+          "0": "Number of meals",
+          "All": "Number of meals",
+          "D": "Number of meals",
+          "S": "Number of meals",
+          "M": "Number of meals",
+          "B": "Number of meals",
+          "F": "Number of meals",
+          "P": "Number of meals"
+        },
+        "BAU": {
+          "0": "Number of meals",
+          "All": "Number of meals",
+          "D": "Number of meals",
+          "S": "Number of meals",
+          "M": "Number of meals",
+          "B": "Number of meals",
+          "F": "Number of meals",
+          "P": "Number of meals"
+        }
+      }
+    },
+    {
+      "id": "mvkm",
+      "order": 10,
+      "archetype": "per_capita_demand",
+      "legacy_function": "commodity_demand",
+      "matrix": "Y",
+      "workbook": "mvkm_Full.xlsx",
+      "measure": "B",
+      "parameters": {
+        "commodity": "Car mobility",
+        "cons_category": "Households final consumption",
+        "shock_type": "Update"
+      },
+      "sheets": {
+        "REF": {
+          "0": "vkm pc 0",
+          "All": "vkm pc B",
+          "D": "vkm pc 0",
+          "S": "vkm pc 0",
+          "M": "vkm pc 0",
+          "B": "vkm pc B",
+          "F": "vkm pc 0",
+          "P": "vkm pc 0"
+        },
+        "NZE": {
+          "0": "vkm pc 0",
+          "All": "vkm pc B",
+          "D": "vkm pc 0",
+          "S": "vkm pc 0",
+          "M": "vkm pc 0",
+          "B": "vkm pc B",
+          "F": "vkm pc 0",
+          "P": "vkm pc 0"
+        },
+        "BAU": {
+          "0": "vkm pc 0",
+          "All": "vkm pc B",
+          "D": "vkm pc 0",
+          "S": "vkm pc 0",
+          "M": "vkm pc 0",
+          "B": "vkm pc B",
+          "F": "vkm pc 0",
+          "P": "vkm pc 0"
+        }
+      }
+    },
+    {
+      "id": "diet",
+      "order": 11,
+      "archetype": "supply_mix",
+      "legacy_function": "change_market_shares",
+      "matrix": "z",
+      "workbook": "diet_Full.xlsx",
+      "measure": "D",
+      "parameters": {
+        "commodity": "Meals"
+      },
+      "sheets": {
+        "REF": {
+          "0": "diet 0",
+          "All": "diet D",
+          "D": "diet D",
+          "S": "diet 0",
+          "M": "diet 0",
+          "B": "diet 0",
+          "F": "diet 0",
+          "P": "diet 0"
+        },
+        "NZE": {
+          "0": "diet 0",
+          "All": "diet D",
+          "D": "diet D",
+          "S": "diet 0",
+          "M": "diet 0",
+          "B": "diet 0",
+          "F": "diet 0",
+          "P": "diet 0"
+        },
+        "BAU": {
+          "0": "diet 0",
+          "All": "diet D",
+          "D": "diet D",
+          "S": "diet 0",
+          "M": "diet 0",
+          "B": "diet 0",
+          "F": "diet 0",
+          "P": "diet 0"
+        }
+      }
+    },
+    {
+      "id": "hs-emi",
+      "order": 12,
+      "archetype": "satellite_intensity",
+      "legacy_function": "sat_coeffs_change",
+      "matrix": "e",
+      "workbook": "hs-eff_Full.xlsx",
+      "measure": null,
+      "parameters": {},
+      "sheets": {
+        "REF": {
+          "0": "hs-emi",
+          "All": "hs-emi",
+          "D": "hs-emi",
+          "S": "hs-emi",
+          "M": "hs-emi",
+          "B": "hs-emi",
+          "F": "hs-emi",
+          "P": "hs-emi"
+        },
+        "NZE": {
+          "0": "hs-emi",
+          "All": "hs-emi",
+          "D": "hs-emi",
+          "S": "hs-emi",
+          "M": "hs-emi",
+          "B": "hs-emi",
+          "F": "hs-emi",
+          "P": "hs-emi"
+        },
+        "BAU": {
+          "0": "hs-emi BAU",
+          "All": "hs-emi BAU",
+          "D": "hs-emi BAU",
+          "S": "hs-emi BAU",
+          "M": "hs-emi BAU",
+          "B": "hs-emi BAU",
+          "F": "hs-emi BAU",
+          "P": "hs-emi BAU"
+        }
+      }
+    },
+    {
+      "id": "car-emi",
+      "order": 13,
+      "archetype": "satellite_intensity",
+      "legacy_function": "sat_coeffs_change",
+      "matrix": "e",
+      "workbook": "car-eff_Full.xlsx",
+      "measure": "M",
+      "parameters": {},
+      "sheets": {
+        "REF": {
+          "0": "car-emi 0 - clustering",
+          "All": "car-emi M - clustering",
+          "D": "car-emi 0 - clustering",
+          "S": "car-emi 0 - clustering",
+          "M": "car-emi M - clustering",
+          "B": "car-emi 0 - clustering",
+          "F": "car-emi 0 - clustering",
+          "P": "car-emi 0 - clustering"
+        },
+        "NZE": {
+          "0": "car-emi 0 - clustering",
+          "All": "car-emi M - clustering",
+          "D": "car-emi 0 - clustering",
+          "S": "car-emi 0 - clustering",
+          "M": "car-emi M - clustering",
+          "B": "car-emi 0 - clustering",
+          "F": "car-emi 0 - clustering",
+          "P": "car-emi 0 - clustering"
+        },
+        "BAU": {
+          "0": "car-emi 0 - clustering",
+          "All": "car-emi M - clustering",
+          "D": "car-emi 0 - clustering",
+          "S": "car-emi 0 - clustering",
+          "M": "car-emi M - clustering",
+          "B": "car-emi 0 - clustering",
+          "F": "car-emi 0 - clustering",
+          "P": "car-emi 0 - clustering"
+        }
+      }
+    },
+    {
+      "id": "flying-less_Y",
+      "order": 14,
+      "archetype": "scale_final_demand",
+      "legacy_function": "change_in_consumption",
+      "matrix": "Y",
+      "workbook": "flying-less_Full.xlsx",
+      "measure": "F",
+      "parameters": {
+        "cons_category": [
+          "Households final consumption"
+        ],
+        "commodity": "Air transport services (62)"
+      },
+      "sheets": {
+        "REF": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        },
+        "NZE": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        },
+        "BAU": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        }
+      }
+    },
+    {
+      "id": "flying-less_z",
+      "order": 15,
+      "archetype": "scale_intermediate_use",
+      "legacy_function": "all_coeffs_change",
+      "matrix": "z",
+      "workbook": "flying-less_Full.xlsx",
+      "measure": "F",
+      "parameters": {
+        "commodity": "Air transport services (62)"
+      },
+      "sheets": {
+        "REF": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        },
+        "NZE": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        },
+        "BAU": {
+          "0": "flying less - 0",
+          "All": "flying less - F",
+          "D": "flying less - 0",
+          "S": "flying less - 0",
+          "M": "flying less - 0",
+          "B": "flying less - 0",
+          "F": "flying less - F",
+          "P": "flying less - 0"
+        }
+      }
+    },
+    {
+      "id": "wash-mac",
+      "order": 16,
+      "archetype": "per_capita_demand",
+      "legacy_function": "commodity_demand",
+      "matrix": "Y",
+      "workbook": "washingdem_Full.xlsx",
+      "measure": "P",
+      "parameters": {
+        "commodity": "Machinery and equipment n.e.c. (29)",
+        "cons_category": "Households final consumption",
+        "shock_type": "Absolute"
+      },
+      "sheets": {
+        "REF": {
+          "0": "tonspc - 0",
+          "All": "tonspc - P",
+          "D": "tonspc - 0",
+          "S": "tonspc - 0",
+          "M": "tonspc - 0",
+          "B": "tonspc - 0",
+          "F": "tonspc - 0",
+          "P": "tonspc - P"
+        },
+        "NZE": {
+          "0": "tonspc - 0",
+          "All": "tonspc - P",
+          "D": "tonspc - 0",
+          "S": "tonspc - 0",
+          "M": "tonspc - 0",
+          "B": "tonspc - 0",
+          "F": "tonspc - 0",
+          "P": "tonspc - P"
+        },
+        "BAU": {
+          "0": "tonspc - 0",
+          "All": "tonspc - P",
+          "D": "tonspc - 0",
+          "S": "tonspc - 0",
+          "M": "tonspc - 0",
+          "B": "tonspc - 0",
+          "F": "tonspc - 0",
+          "P": "tonspc - P"
+        }
+      }
+    },
+    {
+      "id": "wash-ee",
+      "order": 17,
+      "archetype": "per_capita_demand",
+      "legacy_function": "commodity_demand",
+      "matrix": "Y",
+      "workbook": "washingee_Full.xlsx",
+      "measure": "P",
+      "parameters": {
+        "commodity": "Electricity",
+        "cons_category": "Households final consumption",
+        "shock_type": "Absolute"
+      },
+      "sheets": {
+        "REF": {
+          "0": "TJpc - 0",
+          "All": "TJpc - P",
+          "D": "TJpc - 0",
+          "S": "TJpc - 0",
+          "M": "TJpc - 0",
+          "B": "TJpc - 0",
+          "F": "TJpc - 0",
+          "P": "TJpc - P"
+        },
+        "NZE": {
+          "0": "TJpc - 0",
+          "All": "TJpc - P",
+          "D": "TJpc - 0",
+          "S": "TJpc - 0",
+          "M": "TJpc - 0",
+          "B": "TJpc - 0",
+          "F": "TJpc - 0",
+          "P": "TJpc - P"
+        },
+        "BAU": {
+          "0": "TJpc - 0",
+          "All": "TJpc - P",
+          "D": "TJpc - 0",
+          "S": "TJpc - 0",
+          "M": "TJpc - 0",
+          "B": "TJpc - 0",
+          "F": "TJpc - 0",
+          "P": "TJpc - P"
+        }
+      }
+    }
+  ]
+}
