@@ -1,0 +1,138 @@
+{
+  "record": 15341618,
+  "version": "v2.3",
+  "license": "CC-BY-4.0",
+  "groups": {
+    "shocks": {
+      "filename": "Files for shocks.zip",
+      "size": 1747256,
+      "md5": "1b0f789f5a39d836e97167fb7a0b96b3",
+      "directory": "Files for shocks",
+      "files": {
+        "flying-less_Full.xlsx": {
+          "member": "Files for shocks/flying-less_Full.xlsx",
+          "sha256": "f906a9b45779693a3d1db174976241477612f85a262ce6d09d2d7bab4319e2d4",
+          "size": 26341
+        },
+        "hs-mix_Full.xlsx": {
+          "member": "Files for shocks/hs-mix_Full.xlsx",
+          "sha256": "8af2ddf899ff1b4202ee47a6480c9f0b0dbc1d70e2ab2df9e5a4ffcc2340aafc",
+          "size": 123581
+        },
+        "ele-mixREF_Full.xlsx": {
+          "member": "Files for shocks/ele-mixREF_Full.xlsx",
+          "sha256": "27cd7300b46fd1e68d8181b4169b5ab895589e4f3bf07911c1d2cd096572e8d7",
+          "size": 270234
+        },
+        "car-mix_Full.xlsx": {
+          "member": "Files for shocks/car-mix_Full.xlsx",
+          "sha256": "9e8afec554c548436924f3c177ccc4e82d35347c2c0dc6d74dab8e28cf6af0d0",
+          "size": 75943
+        },
+        "ele-mixNZE_Full.xlsx": {
+          "member": "Files for shocks/ele-mixNZE_Full.xlsx",
+          "sha256": "7433b3528fb1cac0c894725049f996ce909f3c98973ce559e16522d6bdfe795d",
+          "size": 75933
+        },
+        "mvkm_Full.xlsx": {
+          "member": "Files for shocks/mvkm_Full.xlsx",
+          "sha256": "f788119fa33a220bf060539f79f3f55c7bbd477858248bfcadce5bd70c4a550b",
+          "size": 72912
+        },
+        "washingee_Full.xlsx": {
+          "member": "Files for shocks/washingee_Full.xlsx",
+          "sha256": "ae465310880f9e63710a666c297a366ff416c9e57c35ec27ef3dd090c3a4a851",
+          "size": 42671
+        },
+        "diet_Full.xlsx": {
+          "member": "Files for shocks/diet_Full.xlsx",
+          "sha256": "1ff7135c1081a9d31760cce2105663c2968825fb591479771a7cf536da5d98e7",
+          "size": 133938
+        },
+        "hs-eff_Full.xlsx": {
+          "member": "Files for shocks/hs-eff_Full.xlsx",
+          "sha256": "8f96dbbc5565eeeb1ef6dd55c35a76bf300ac70eae004ba0e9dad8ea3760a4ea",
+          "size": 103635
+        },
+        "car-eff_Full.xlsx": {
+          "member": "Files for shocks/car-eff_Full.xlsx",
+          "sha256": "7a42e165efc6faf9014ce5ea03805cde95e568f543b1839ec36a3e082fa17545",
+          "size": 135187
+        },
+        "ele-mixNZE_Full_oldPOLIMI.xlsx": {
+          "member": "Files for shocks/ele-mixNZE_Full_oldPOLIMI.xlsx",
+          "sha256": "789f3a385f9c401b8d73ca5658c4987ad46c3b5164b3d04cfd29020d0bf89e56",
+          "size": 286072
+        },
+        "ele-mixBAU_Full.xlsx": {
+          "member": "Files for shocks/ele-mixBAU_Full.xlsx",
+          "sha256": "b1a0d0821de56debc17ca6d3ebff6c58ae6fe74d6e4d1e37f34bd51ee0e50d70",
+          "size": 221964
+        },
+        "washingdem_Full.xlsx": {
+          "member": "Files for shocks/washingdem_Full.xlsx",
+          "sha256": "85e1f617a62287679170becb94233eeb39a28c6ece3150f13942117e0426b46d",
+          "size": 41432
+        },
+        "cons_var_Full.xlsx": {
+          "member": "Files for shocks/cons_var_Full.xlsx",
+          "sha256": "595b09fd10345a2cb3e900cee0f1f1f9db12730ece06715085c56eaf5b0f55ef",
+          "size": 388099
+        },
+        "m2pc_Full.xlsx": {
+          "member": "Files for shocks/m2pc_Full.xlsx",
+          "sha256": "d368250bea534f1841ed67dfba452e79a1ba62866b5bb40f6603287123601bce",
+          "size": 36553
+        },
+        "hous_Full.xlsx": {
+          "member": "Files for shocks/hous_Full.xlsx",
+          "sha256": "8dcb2480a2f21bb98eb62daf588cad27f725fa89b3f6e02d905e872d517869a1",
+          "size": 34580
+        }
+      }
+    },
+    "database": {
+      "filename": "MARIO database.zip",
+      "size": 127819701,
+      "md5": "1f5203990b8647c08ce0215b1303fa40",
+      "directory": "MARIO database",
+      "files": {
+        "flows/EY.txt": {
+          "member": "flows/EY.txt",
+          "sha256": "d9befbe424c2bf4b0cca139190ec5dcee98be6c6d9bd34941dcd41ea13ac9ba7",
+          "size": 20697
+        },
+        "flows/Z.txt": {
+          "member": "flows/Z.txt",
+          "sha256": "6ccbb855db2e5f126b9a4b1c1c47df6e9db1f22b64bf9c6911d03e9ce6ba4c03",
+          "size": 1231921902
+        },
+        "flows/X.txt": {
+          "member": "flows/X.txt",
+          "sha256": "1dc1064201fd062923646c8d767d4604f2c699cb5654a523ea0c4863a2439169",
+          "size": 1065875
+        },
+        "flows/Y.txt": {
+          "member": "flows/Y.txt",
+          "sha256": "4a6c1d60757e2ed73c5812ea524d10bbd63029ec9815c254bcb2ccd4cd87816a",
+          "size": 8569329
+        },
+        "flows/units.txt": {
+          "member": "flows/units.txt",
+          "sha256": "8804478d956d4671d169ca7d605540af4c0c29e829f864a69f98260b0056b404",
+          "size": 22541
+        },
+        "flows/V.txt": {
+          "member": "flows/V.txt",
+          "sha256": "d717924754bfb7a375016b1d407a4899184268c4b008708e2ae92357e4cf7e0a",
+          "size": 1946332
+        },
+        "flows/E.txt": {
+          "member": "flows/E.txt",
+          "sha256": "e54a350f427fe6f39cbe0bb74dff3bd270a7c250a4a8348c9753dc690d1bdafb",
+          "size": 4033786
+        }
+      }
+    }
+  }
+}

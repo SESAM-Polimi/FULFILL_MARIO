@@ -1,0 +1,13 @@
+{
+  "name": "NZE_All_2050",
+  "background": "NZE",
+  "year": 2050,
+  "measures": [
+    "D",
+    "S",
+    "M",
+    "P",
+    "F",
+    "B"
+  ]
+}

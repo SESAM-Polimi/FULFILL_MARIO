@@ -134,6 +134,14 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local input caches, plans and model runs (keep Outputs/sets.xlsx tracked)
+/Data
+/Outputs/runs/
+/Outputs/plans/
+/Outputs/full-check/
+/Outputs/local-verification/
+.DS_Store
+
 # Spyder project settings
 .spyderproject
 .spyproject

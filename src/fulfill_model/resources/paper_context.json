@@ -1,0 +1,18 @@
+{
+  "zenodo_record": 15341618,
+  "database_archive_md5": "1f5203990b8647c08ce0215b1303fa40",
+  "files": {
+    "EY.txt": "d9befbe424c2bf4b0cca139190ec5dcee98be6c6d9bd34941dcd41ea13ac9ba7",
+    "Z.txt": "6ccbb855db2e5f126b9a4b1c1c47df6e9db1f22b64bf9c6911d03e9ce6ba4c03",
+    "X.txt": "1dc1064201fd062923646c8d767d4604f2c699cb5654a523ea0c4863a2439169",
+    "Y.txt": "4a6c1d60757e2ed73c5812ea524d10bbd63029ec9815c254bcb2ccd4cd87816a",
+    "units.txt": "8804478d956d4671d169ca7d605540af4c0c29e829f864a69f98260b0056b404",
+    "V.txt": "d717924754bfb7a375016b1d407a4899184268c4b008708e2ae92357e4cf7e0a",
+    "E.txt": "e54a350f427fe6f39cbe0bb74dff3bd270a7c250a4a8348c9753dc690d1bdafb"
+  },
+  "trade_weights_sha256": "9a8ddf235edba40639bf35a9a84f942e86f2156d79f2263e1ca66da4e4afb3a2",
+  "rows": 5523,
+  "negative_weights": 90,
+  "seconds": 26.738097416993696,
+  "derivation": "Y commodity origin shares by consumer; if household + other final demand is zero, use Y+U. No rounding, clipping or re-normalization beyond division by the observed total."
+}

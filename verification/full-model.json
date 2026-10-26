@@ -1,0 +1,45 @@
+{
+  "validation_date": "2026-10-26",
+  "case": {
+    "name": "BAU_All_2050",
+    "background": "BAU",
+    "year": 2050,
+    "measures": [
+      "D",
+      "S",
+      "M",
+      "P",
+      "F",
+      "B"
+    ],
+    "adoption": {}
+  },
+  "scope": "Full 43-region SUT, composed recipe vs unchanged already-public BAU_All_2050 workbook; E/EY/V account totals",
+  "source_workbook": "BAU_All_2050.xlsx",
+  "source_sha256": "ed25cf35f8abd1baac835bc1a6afafa2c04ed8e6de026cc7dabe1b57efdf54a2",
+  "account_region_totals": 3182,
+  "max_abs_difference_native_units": 0.005684226751327515,
+  "max_relative_difference": 2.5914062179549534e-08,
+  "tolerance": {
+    "rtol": 1e-07,
+    "atol": 1e-06
+  },
+  "solve_seconds": [
+    120.7241129999893,
+    125.97654191699985
+  ],
+  "air_transport_extra": true,
+  "engine": "0.3.5",
+  "numpy": "2.1.1",
+  "pandas": "2.2.3",
+  "executed_code": {
+    "builders.py": "cfaf7a0f49030e4da2ad298eba9672cfe5052fc2254492d224665a22bbb95bde",
+    "__init__.py": "da84f962888bbd1ed1eb1f13417b5bf4a89b56e665f525170d24dcf5deb2b6ef",
+    "cases.py": "74e8d87604c5a5b6cec37b67b64d78604bc97bbe84ddc61f0d6699d7cad43859",
+    "runtime.py": "a97b65dc2517f9b41fac1f49a38a128efb7b3ba82bf064b2cb396532d2e9bdc8",
+    "cli.py": "6f92f21d18161be70e9337bf7b273213348c6726ac1145b70c29b5dee0713348",
+    "planning.py": "d8ebbeae92bdbb2e637f267bfadd21ef99c4fed3470df610d71651d8f55bedf9",
+    "data.py": "ae0157aef3033bfc02e9b400d839a398129ff8a274ef237f6343ee5b141527cd"
+  },
+  "output_hashes_verified": true
+}
